@@ -1,0 +1,26 @@
+{
+  "name": "cowui",
+  "version": "0.1.7",
+  "description": "A simple based on the react and styled-components senior style UI  library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugle/cowui.git"
+  },
+  "keywords": [
+    "cowui"
+  ],
+  "author": "eugle",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/eugle/cowui/issues"
+  },
+  "homepage": "https://github.com/eugle/cowui#readme",
+  "dependencies": {
+    "styled-components": "^4.4.0",
+    "prettier": "1.18.2"
+  }
+}
