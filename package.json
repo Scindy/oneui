@@ -1,6 +1,6 @@
 {
   "name": "cowui",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A simple based on the react and styled-components senior style UI  library",
   "main": "lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/eugle/cowui#readme",
   "dependencies": {
-    "styled-components": "^4.4.0",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "styled-components": "^4.4.1"
   }
 }
