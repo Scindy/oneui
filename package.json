@@ -1,6 +1,6 @@
 {
   "name": "cowui",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A simple based on the react and styled-components senior style UI  library",
   "main": "lib/index.js",
   "scripts": {
