@@ -37,7 +37,8 @@ import {Div} from 'cowui'
 
 **API**  
 #GlobalColor  
-  
+
+自定义默认的颜色  
 GlobalColor({  
   primary: '#ff3300',  
 });    
