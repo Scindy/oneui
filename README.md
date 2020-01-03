@@ -35,6 +35,32 @@ yarn add cowui
 **ES6**  
 import {Div} from 'cowui'
 
+**API**  
+# GlobalColor  
+
+自定义默认的颜色  
+```
+GlobalColor({  
+	primary: '#35b8e0',  
+	primaryRGB: '53,184,224',  
+	primaryG: '#0081ee',  
+	success: '#10c469',  
+	successRGB: '16,196,105',  
+	successG: '#009f5a',   
+	danger: '#ff5b5b',  
+	dangerRGB: '255,93,93',
+	dangerG: '#e02e2e',
+	warning: '#f9c851',
+	warningRGB: '249,200,81',
+	warningG: '#ff8a00',
+	info: '#002fa7',
+	infoRGB: '0,47,167',
+	infoG: '#002687',
+}); 
+```
+
+RGB结尾的 表示 '255,255,255' 的格式，用于透明度  
+G结尾的 用于设置渐变结束的颜色  
 
 # 参考
 [Styled-Components](https://www.styled-components.com/). 官方文档  
