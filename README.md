@@ -39,14 +39,15 @@ import {Div} from 'cowui'
 #GlobalColor  
 
 自定义默认的颜色  
+'''
 GlobalColor({  
-  primary: '#35b8e0',
-	primaryRGB: '53,184,224',
-	primaryG: '#0081ee',
-	success: '#10c469',
-	successRGB: '16,196,105',
-	successG: '#009f5a',
-	danger: '#ff5b5b',
+	primary: '#35b8e0',  
+	primaryRGB: '53,184,224',  
+	primaryG: '#0081ee',  
+	success: '#10c469',  
+	successRGB: '16,196,105',  
+	successG: '#009f5a',   
+	danger: '#ff5b5b',  
 	dangerRGB: '255,93,93',
 	dangerG: '#e02e2e',
 	warning: '#f9c851',
@@ -55,7 +56,8 @@ GlobalColor({
 	info: '#002fa7',
 	infoRGB: '0,47,167',
 	infoG: '#002687',
-});    
+}); 
+'''
 
 所有包含 RGB 的属性都是 '255,255,255' 的格式   
 
