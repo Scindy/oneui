@@ -59,7 +59,8 @@ GlobalColor({
 }); 
 ```
 
-所有包含 RGB 的属性都是 '255,255,255' 的格式   
+RGB结尾的 表示 '255,255,255' 的格式，用于透明度  
+G结尾的 用于设置渐变结束的颜色  
 
 # 参考
 [Styled-Components](https://www.styled-components.com/). 官方文档  
