@@ -35,6 +35,25 @@ yarn add cowui
 **ES6**  
 import {Div} from 'cowui'
 
+**API**  
+#GlobalColor  
+  
+GlobalColor({  
+  primary: '#ff3300',  
+});    
+
+primary,    
+primaryRGB,    
+success,    
+successRGB,    
+danger,    
+dangerRGB,    
+warning,   
+warningRGB,   
+info,   
+infoRGB  
+
+所有包含 RGB 的属性都是 '255,255,255' 的格式   
 
 # 参考
 [Styled-Components](https://www.styled-components.com/). 官方文档  
