@@ -39,7 +39,7 @@ import {Div} from 'cowui'
 #GlobalColor  
 
 自定义默认的颜色  
-'''
+```
 GlobalColor({  
 	primary: '#35b8e0',  
 	primaryRGB: '53,184,224',  
@@ -57,7 +57,7 @@ GlobalColor({
 	infoRGB: '0,47,167',
 	infoG: '#002687',
 }); 
-'''
+```
 
 所有包含 RGB 的属性都是 '255,255,255' 的格式   
 
