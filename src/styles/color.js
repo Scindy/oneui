@@ -1,12 +1,7 @@
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-var DefaultColor = exports.DefaultColor = {
+export const DefaultColor = {
 	/**
-  * Color
-  * */
+	 * Color
+	 * */
 	primary: '#35b8e0',
 	primaryRGB: '53,184,224',
 	primaryG: '#0081ee',
@@ -24,8 +19,8 @@ var DefaultColor = exports.DefaultColor = {
 	infoG: '#002687',
 
 	/**
-  * Background
-  * */
+	 * Background
+	 * */
 	bg: '#f5f7f9',
 	bgRGB: '245,247,249',
 	bgG: '53,88,168,.8',
@@ -46,8 +41,8 @@ var DefaultColor = exports.DefaultColor = {
 	biG: '232,253,235,.8',
 
 	/**
-  * Font Color
-  * */
+	 * Font Color
+	 * */
 	ff: '#fff',
 	ffRGB: '255,255,255',
 	ffG: '#eceff1',

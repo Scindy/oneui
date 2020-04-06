@@ -1,10 +1,11 @@
 {
   "name": "@eugle/oneui",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "description": "A simple based on the react and styled-components senior style ui library",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start":"babel lib --out-dir index.es5.js",
+    "start": "babel src --out-dir lib && npm publish",
+    "build": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
