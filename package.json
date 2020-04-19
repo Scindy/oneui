@@ -1,8 +1,8 @@
 {
   "name": "@eugle/oneui",
-  "version": "2.1.2",
+  "version": "2.1.4",
   "description": "A simple based on the react and styled-components senior style ui library",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "babel src --out-dir lib && npm publish",
     "build": "babel src --out-dir lib",
@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/eugle/oneui#readme",
   "dependencies": {
-    "prettier": "1.18.2",
-    "styled-components": "^5.0.1"
+    "prettier": "^2.0.4",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
