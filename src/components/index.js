@@ -1111,12 +1111,12 @@ export const Div = styled.div`
     ${props =>
 			props['ch'] &&
 			`
-        :hover{color:${getColor(props['ch'], props['cho'], true)};}∂
+        :hover{color:${getColor(props['ch'], props['cho'], true)};transition: all 0.5s;}
     `} 
     ${props =>
 			props['bh'] &&
 			`
-        :hover{background:${getColor(props['bh'], props['bho'])};}
+        :hover{background:${getColor(props['bh'], props['bho'])};transition: all 0.5s;}
     `} 
     
     box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;
@@ -1193,7 +1193,6 @@ const getButton = (props, type) => {
     touch-action: manipulation;
     ${type === 'button' && 'text-align: center;'}
     background-image: none;
-    user-select: none;
     -webkit-appearance: button;
     -webkit-writing-mode: horizontal-tb !important;
     `;
@@ -1606,7 +1605,7 @@ const text = props => {
 		res = res + `font-weight:600;`;
 	}
 	if (props && props['ch']) {
-		res = res + `:hover{color:${getColor(props['ch'], props['cho'], true)};}`;
+		res = res + `:hover{color:${getColor(props['ch'], props['cho'], true)};transition: all 0.5s;}`;
 	}
 	return res;
 };

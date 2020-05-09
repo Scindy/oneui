@@ -1,6 +1,6 @@
 {
   "name": "@eugle/oneui",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "description": "A simple based on the react and styled-components senior style ui library",
   "main": "lib/index.js",
   "scripts": {
