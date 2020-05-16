@@ -15,7 +15,7 @@ export const GlobalColor = ({
 	warningG,
 	info,
 	infoRGB,
-	infoG
+	infoG,
 } = {}) => {
 	if (primary) {
 		Color.primary = primary;
@@ -1279,7 +1279,9 @@ const buttonIcon = () => {
  * 全宽 a
  * */
 export const Button = styled.button`
+	transition: all 0.5s;
     :hover {
+    	transition: all 0.5s;
         background: ${props => (props['bg'] ? getColor(props['bg'], props['bgo'], true) : '#eceff1;')}
         ${props =>
 					(props['bgo'] || props['bgo'] === 0) &&
@@ -1358,12 +1360,12 @@ export const Button = styled.button`
     ${props =>
 			props['ch'] &&
 			`
-        :hover{color:${getColor(props['ch'], props['cho'], true)};}
+        :hover{transition: all 0.5s;color:${getColor(props['ch'], props['cho'], true)};}
     `} 
     ${props =>
 			props['bh'] &&
 			`
-        :hover{background:${getColor(props['bh'], props['bho'])};}
+        :hover{transition: all 0.5s;background:${getColor(props['bh'], props['bho'])};}
     `} 
 `;
 
@@ -1552,12 +1554,12 @@ export const A = styled.a`
     ${props =>
 			props['ch'] &&
 			`
-        :hover{color:${getColor(props['ch'], props['cho'], true)};}
+        :hover{transition: all 0.5s;color:${getColor(props['ch'], props['cho'], true)};}
     `}
     ${props =>
 			props['bh'] &&
 			`
-        :hover{background:${getColor(props['bh'], props['bho'])};}
+        :hover{transition: all 0.5s;background:${getColor(props['bh'], props['bho'])};}
     `}
 `;
 
